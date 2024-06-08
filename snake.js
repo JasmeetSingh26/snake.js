@@ -79,7 +79,7 @@ function update() {
 function changeDirection(e) {
     if (e.code == "ArrowUp" && velocityY != blockSize) {
         velocityX = 0;
-        velocityY = -10;
+        velocityY = -blockSize;
     }
     else if (e.code == "ArrowDown" && velocityY != -blockSize) {
         velocityX = 0;
